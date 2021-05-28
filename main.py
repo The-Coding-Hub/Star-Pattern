@@ -1,4 +1,5 @@
 n = int(input("Enter the number of rows\n"))
-
-for i in range(1, n):
-    print("@ " * i)
+i = 1
+while i <= n:
+    print("* " * i)
+    i += 1
